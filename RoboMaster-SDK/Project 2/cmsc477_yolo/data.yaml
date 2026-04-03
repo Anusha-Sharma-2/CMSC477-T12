@@ -1,0 +1,13 @@
+path: C:\Users\anush\OneDrive\Desktop\CMSC477\RoboMaster-SDK\Project 2\cmsc477_yolo\datasets
+train: train
+val: valid
+
+nc: 1
+names: ['Block-detection']
+
+roboflow:
+  workspace: anushaws
+  project: block-detection-yymac
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anushaws/block-detection-yymac/dataset/1

@@ -165,8 +165,17 @@ def run_maze(ep_robot, ep_chassis, ep_camera):
 
     grid = np.zeros((12, 12))
     # TODO: Fill in obstacles (this is just top wall)
-    grid[1:3, 2:10] = 1
-    
+    # Left vertical wall of the 'U'
+    grid[3:6, 2] = 1 
+
+    # Top horizontal wall of the 'U'
+    grid[2, 2:10] = 1 
+
+    # Right vertical wall of the 'U'
+    grid[3:6, 9] = 1 
+
+    # Central Pillar (The center obstacle)
+    grid[4:8, 5:7] = 1
     
     # start / goal pose
     start_node = (5, 1)
