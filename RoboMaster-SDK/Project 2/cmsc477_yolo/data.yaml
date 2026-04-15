@@ -1,4 +1,4 @@
-path: C:\Users\anush\OneDrive\Desktop\CMSC477\RoboMaster-SDK\Project 2\cmsc477_yolo\datasets
+path: ./datasets
 train: train
 val: valid
 
